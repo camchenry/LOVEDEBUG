@@ -18,7 +18,7 @@ require("lovedebug")
 function love.load()
 end
 ```
-* Lunch your game and press Ctrl/Shift + F8
+* Launch your game and press Ctrl/Shift + F8
 * And there you have it, your own onscreen interactive console.
 
 ## Functionalities:
@@ -27,7 +27,7 @@ end
 * Press CTRL/Shift + F8 to Show/Hide the console.
 * Type `_DebugSettings.Settings()` to see a list of available variables that you can change.
 * Hotswap your code. Press F5 while you are at the console to reload your code or simply set _DebugSettings.LiveAuto to true to automatically reload your code when it has been changed, control the files that should be monitored by editing _DebugSettings.LiveFile
-* HUD feed of everything that is going on under the under the hood of you application in real time.
+* HUD feed of everything that is going on under the hood of your application in real time.
 * Code auto completion. Use the arrow keys while you are coding in the console to browse a list of possible auto completions and press tab to auto complete the word.
 * Use Shift+Arrow keys to browse input history.
 * Copy and Paste by pressing Ctrl+C/V
